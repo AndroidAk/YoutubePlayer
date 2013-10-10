@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dip"
+        android:text="You tube" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtubevideo"
+        android:layout_width="440dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dip"
+        android:layout_weight="0.64" />
+
+</LinearLayout>
