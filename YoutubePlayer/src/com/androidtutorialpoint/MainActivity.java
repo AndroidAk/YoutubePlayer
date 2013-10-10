@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
-	static private final String DEVELOPER_KEY = "AIzaSyCIPao31XU-LD_pQXIF9afDlShEWdecq2U";
+	static private final String DEVELOPER_KEY = "API KEY";
 	static private final String VIDEO = "XpB-uFUfyLQ";
 	
 	@Override
